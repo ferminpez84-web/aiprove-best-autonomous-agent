@@ -1,0 +1,28 @@
+2026-11-13 23:42:22 WIB | start | agent=anka.agent wallet=0x4F239862eB400e515EE311F60ff210b2BDB7F8A6 api=https://aiprove.fun autonomous loop start (no human in the loop)
+2026-11-13 23:42:23 WIB | skill | GET /skill.md OK (6722 bytes)
+2026-11-13 23:42:23 WIB | auth | reused saved session token
+2026-11-13 23:42:23 WIB | auth | authenticated as 0x4F239862eB400e515EE311F60ff210b2BDB7F8A6
+2026-11-13 23:42:24 WIB | list | GET /api/bounties?status=open OK (21 open)
+2026-11-13 23:42:25 WIB | bug-hunt-utils | SKIP: already submitted, provenance_ok ids=4b7623bc-af71-4212-b346-1938f6ca6a94,66d79c87-6b78-4443-abe1-aa66964ee53c
+2026-11-13 23:42:25 WIB | sample-agent-skillmd | SKIP: already submitted, provenance_ok ids=0fdf4e86…,6e6207bd…
+2026-11-13 23:42:26 WIB | btc-tomorrow | r24=-0.038840069473739525, r7d=-0.09541703911746124, prob_up=0.2881
+2026-11-13 23:42:26 WIB | btc-tomorrow | SKIP: already submitted (per /api/me)
+2026-11-13 23:42:27 WIB | forecast-eth-24h | r24=-0.03539969589489955, r7d=-0.1366596946647859, prob_up=0.2571
+2026-11-13 23:42:27 WIB | forecast-eth-24h | SKIP: already submitted (per /api/me)
+2026-11-13 23:42:28 WIB | spy-close-1dollar | SPY last close=750.1300048828125
+2026-11-13 23:42:28 WIB | spy-close-1dollar | SKIP: already submitted (per /api/me)
+2026-11-13 23:42:29 WIB | forecast-gold-tomorrow | GLD last close=355.989990234375
+2026-11-13 23:42:29 WIB | forecast-gold-tomorrow | SKIP: already submitted (per /api/me)
+2026-11-13 23:42:30 WIB | signal-eth-pnl-24h | ETH r24=-0.03537869740002697, r7d=-0.1366596946647859, prob_up=0.2572 -> short
+2026-11-13 23:42:30 WIB | signal-eth-pnl-24h | SKIP: already submitted (per /api/me)
+2026-11-13 23:42:30 WIB | top5-pons-24h | top5 fresh by marketCapUsd: BIT(0xcca1c9bf…), MELAPS(0x49b5a9fc…), MOLTEN(0x1fa40c62…), NEVER(0xecce2992…), BLOOM(0xca8e648f…)
+2026-11-13 23:42:30 WIB | top5-pons-24h | SKIP: already submitted (per /api/me)
+2026-11-13 23:42:31 WIB | forecast-nvda-3d | NVDA last close=159.860107421875
+2026-11-13 23:42:31 WIB | forecast-nvda-3d | SKIP: already submitted (per /api/me)
+2026-11-13 23:42:33 WIB | forecast-btc-7d | r7d=-0.09523944228985448, r30d=-0.16202047688299925, prob_up=0.1500
+2026-11-13 23:42:33 WIB | forecast-btc-7d | SKIP: already submitted (per /api/me)
+2026-11-13 23:42:34 WIB | code-golf-expr | submit OK status=provenance_ok repo=https://github.com/ferminpez84-web/aiprove-code-golf-expr commit=0118b9250115b2c7aa58052a6ab80673cd722ab1 | f912811b-1e4f-4d0a-a33e-9d7630582bc6
+2026-11-13 23:42:36 WIB | fastest-primes | submit OK status=provenance_ok repo=https://github.com/ferminpez84-web/aiprove-fastest-primes commit=6a3121ea9158e075f5b893ed6fd6a3cb5d03b34e | 99103fee-a55d-4eb0-ab81-eb24f67bdda9
+2026-11-13 23:42:36 WIB | best-autonomous-agent | SKIP: repoUrl/commit not configured (repos.json or env)
+2026-11-13 23:42:37 WIB | status | GET /api/me: competing=14 submissions=14
+2026-11-13 23:42:37 WIB | done | completed=['code-golf-expr', 'fastest-primes'] skipped=['btc-tomorrow', 'forecast-eth-24h', 'spy-close-1dollar', 'forecast-gold-tomorrow', 'signal-eth-pnl-24h', 'top5-pons-24h', 'forecast-nvda-3d', 'forecast-btc-7d', 'best-autonomous-agent']
